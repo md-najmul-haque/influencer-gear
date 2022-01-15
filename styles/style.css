@@ -1,0 +1,108 @@
+
+/* Common Styles start */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 80%;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Common Style End  */
+
+/* Header Styles Strat */
+nav h2{
+    font-size: 24px;
+    margin-top: 86px;
+}
+/* Header Styles End */
+
+
+/* Top featured section styles start  */
+.featured-product{
+    display: flex;
+}
+
+.featured-product-info{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    
+}
+
+.featured-product-info h1{
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.featured-product-info p{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.featured-product-photo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.featured-product-photo img{
+    Width: 440px;
+    height: 414px;
+}
+
+.order-now-button{
+background-color: #E02C6D;
+padding: 10px 20px;
+border-radius: 50px;
+margin-top: 16px;
+
+}
+
+.order-now-button a{
+    text-decoration: none;
+    font-size: 16px;
+    /* font-weight: 700; */
+    color: #FFFFFF;   ;
+}
+
+.order-now-button i{
+    font-size: 16px;
+    margin: 0px 8px;
+    color: #FFFFFF;   ;
+}
+
+.main-camera-background{
+    position: relative;
+}
+
+.main-camera{
+    position:absolute;
+}
+
+/* Top featured section styles start  */
+
+.brands-logo{
+    margin-top: 60px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+
+}
+.brand-logo{
+   
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.brand-logo img{
+    margin-left: 60px;    
+}
