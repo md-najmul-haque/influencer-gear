@@ -10,6 +10,7 @@ body{
     font-family: 'Inter', sans-serif;
     font-family: 'Manrope', sans-serif;
     font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
 }
 
 /* Common Style End  */
@@ -32,6 +33,14 @@ nav h2{
     align-items: center;
     width: 50%;
     
+}
+
+.featured-product-info:hover  ~ .featured-product-photo{
+
+    transform: scale(1.30);
+    transition: transform 5s linear;
+
+
 }
 
 .featured-product-info h1{
@@ -61,8 +70,11 @@ background-color: #E02C6D;
 padding: 10px 20px;
 border-radius: 50px;
 margin-top: 16px;
+border: none;
 
 }
+
+
 
 .order-now-button a{
     text-decoration: none;
@@ -84,8 +96,9 @@ margin-top: 16px;
 .main-camera{
     position:absolute;
 }
+/* Top featured section styles end  */
 
-/* Top featured section styles start  */
+/* Brand logo section styles strart  */
 
 .brands-logo{
     margin-top: 60px;
@@ -106,3 +119,55 @@ margin-top: 16px;
 .brand-logo img{
     margin-left: 60px;    
 }
+/* Brand logo section styles end  */
+
+
+/* Product gallery section styles start  */
+
+.gallery-title{
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.popular-product-gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-row-gap: 30px;
+
+}
+
+.popular-product{
+    padding: 15px;
+    background-color: #FFFFFF;
+    
+    box-shadow: 8px  8px 10px rgba(100, 100, 111, 0.2);
+}
+
+.popular-product img {
+    border-radius: 5px;
+}
+
+.filled-star{
+    color: #FB8200;
+}
+
+.see-more-button{
+    float: right;
+    margin-right: 120px;
+    margin-top: 50px;
+    border: none;
+    
+}
+
+.see-more-button a {
+    text-decoration: none;
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+/* Product gallery section styles end  */
